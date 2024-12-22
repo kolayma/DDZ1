@@ -1,0 +1,20 @@
+#Не храним папку Bitrix в GIT
+/bitrix/*
+
+#Хранить Upload тоже нет смысла
+/upload/
+
+#По желанию добавляем свои папки и файлы (можно из PHPStorm).
+/.idea
+
+/vendor
+
+*.tar.gz
+*.zip
+*.pdf
+
+/local/php_interface/vendor
+
+#Логи
+/logs/*
+*.log
